@@ -1,0 +1,42 @@
+div {
+    
+}
+
+
+h1 {
+    font-size: 24;
+    
+}
+
+.big{
+    background-color: aqua;
+    width: 50px;
+    height: 20%
+}
+.small {
+    background-image: url(/Images/testImage.png);
+    height: 700px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.left-column{
+    float:left;
+    background-color: beige;
+    width: 50%;
+}
+
+.right-column{
+    float:right;
+    background-color: bisque;
+    width: 50%;
+}
+
+.header{
+    clear: both;
+    background-color: lightgrey;
+}

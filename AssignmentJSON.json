@@ -1,0 +1,19 @@
+[
+    {
+        "FrontText": "Javascript was designed and developed by who?",
+        "BackText": "Doug Crockford"
+    },
+    {
+        "FrontText": "CSS stands for",
+        "BackText": "Cascading Style Sheets"
+    },
+    {
+        "FrontText": "Mobile apps that use HTML and JS on the phone are called",
+        "BackText": "Hybrid Apps"
+    },
+    {
+        "FrontText" : "HTML uses what element made of <>"
+        "BackText" : "Tags"
+    }
+
+]

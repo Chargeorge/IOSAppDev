@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+.otherImage{
+    width: 800px;
+    height: 600px;
+        
+}
+
+@media screen and (min-width: 700px){
+    body{
+        background-color: beige;
+    }
+}
+

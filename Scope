@@ -1,0 +1,22 @@
+Scope
+
+var x = 10;
+
+function fu(bx){
+	bx++;
+	return bx;
+}
+
+function bar(cx){
+	bx++;
+	var local=  10;
+	return cx;
+}
+
+function fubar(){
+	alert (local);
+}
+
+function clojure (){
+	alert(x);
+}

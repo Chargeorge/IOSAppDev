@@ -1,0 +1,42 @@
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    
+        
+$(document).ready(function(){
+    $("button").click(function(){
+        $( "#questionTest" ).fadeTo( "slow" , 0.0, function() {
+            //DO your logic that changes the card here
+            $( "#questionTest" ).fadeTo("slow", 1.0);
+        });
+    });
+});
+ 
+//$(document).ready(function(){   
+//    $("button").click(function(){
+//        $("#questionTest").fadeOut()
+//    });
+//});
+    
+
+</script>
+
+</head>
+
+<body>
+
+<div id="maincontainer">
+<div id="frame">
+        <div class="get_started"> 
+            <button id="view_first_question">Next</button>
+        </div>
+        <div id="questionTest" >value</div>   
+</div>
+</div>
+
+
+</body>
+     
+</html>

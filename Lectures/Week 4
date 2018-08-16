@@ -1,0 +1,63 @@
+Lesson 4 
+
+Review of concepts
+
+More on functions
+- Inline function
+- Variable function
+
+var x = function (a){
+	DO SOMETHING
+};
+
+Why?  
+
+Because now we can pass functions around.  The best way to do this is to use events.  We will get into events more
+
+document.getElementById("Something").onclick = x;
+
+Similaly , you can just do an Anonomyous function 
+
+
+document.getElementById("Something").onclick = function(){
+	DO STUFF
+};
+
+SCOPE:   computer only knows a few things.  Scope lets us work with them.this
+
+SCOPE is a weird concept.  Basic. idea, yuou can only use the thing in the blocks.
+
+SCOPE levels: 
+
+Member (variables and functions)
+Global (what we've been mostly using)
+Local (Lives in a function)
+
+Why does this matter?  
+
+ConfusioN! For example, 
+
+when doing loops I reuse the variable "i" a lot.  without scope, I couldn't safely reuse it!
+Computer uses it: Scope is how the language knows how to use itself
+
+
+Go back to your homework assignment, and and convert all the functions into function variables.  
+
+
+Debugging lesson:
+
+Break points: 
+Inspection
+HTML / CSS inspection
+using the console 
+using console.log
+
+Loops:
+
+For
+
+
+
+
+- Anonymous function
+

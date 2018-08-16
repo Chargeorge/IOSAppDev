@@ -1,0 +1,109 @@
+1. What the hell is syntax?
+    - stuctured grammer that tells a computer what to do
+    - it's atomic, go small units up to bigger units
+    - Its'  regular (but people like to bend  the rules, we hate them)
+    - You can memorize it!  It's can be dauniting at first, but you can just practice.  If you are struggling here, Practice this! 
+    - couple quick hits, alert() and console.log("x") 
+
+1. First syntax lesson: operators. + - / * % > < != == ===   !
+	- second syntax lesson, order of operation ()
+	- Lets do math!  
+	- is 9 * (10 + 4) / 3 greater than 7 + 5 -1) * 4
+	- What is the remainder of 18472 / 29
+	- 
+
+2. Using variables
+	- Variables are like a box you can carry around
+	- declare using "var";
+	- var is a *keyword* it means something really special don't use it anywhere else.
+	- var tells the computer "Hey, I'm going to need this variable to do stuff later, hold onto it"
+	- variable is like a box you can carry around 
+	-  Let do some string replacements.  
+	type this 
+	var a = "short and stout"
+
+	var b =  "pour me out"
+
+	var c = "tip me over"
+
+	var d = "I'm a little teapot";
+
+	var e ="I'm a little";
+
+	string of alerts to make the song
+
+	Variables can be many things, numbers, complex objets, strings, booleans, or even functions. 
+
+
+3. Using if statements
+ - These ar elike a fork in the road 
+ - syntax if(condition){
+ 	action
+ }
+ - condition always evaluates to TRUE or FALSE
+ - Javascript is quirky about true and false.  
+ - else statements say if it's not do the other thing
+ -if (condition){
+ behavior
+ }
+ else{
+ other behavior
+ }
+
+ - quick test, a number comparer
+
+ - var x =  100  var y = 20 var z  = 50 var q = 19;
+
+ 4. Using functions
+ syntax : function name ( arguments);
+
+ test to see if each one is > 50, and if it is alert, "got it!" else alert ("don't got it");
+
+ Math.random * 100;
+
+ 5. In Javascript functions are super cool. 
+ - No seriously, They are Aaaaaawwwweessssooooommmmmmeeeeeee
+ - a function is: an object
+ - a function can be assigned.
+ - returning a functio nis a good way to do thing
+ 
+ declaring functions:
+
+ function x(){
+ 	//DO STUF
+ }
+
+ var x = function() {
+ 	DO stuff
+ }
+
+ common functions: getElementById();
+ 					Math.random();
+
+You can get data out of a function using a return!   
+
+function (x){
+	return 1;
+}
+
+Scope!  
+
+Scope excercise, global, vs. local variables
+
+Okay, so variables are important because what variables you can uase is a little like a 
+
+Quick hit, lets use an HTML Input field <input id="something"> and a button <button id="something" onclick="FunctionName">
+
+Arrays:
+
+A row of boxes with a number to identify exactly where to find them.
+var dict = {};
+var dict = new Array();
+dict[val] = 
+
+arrayName[(some identifier)]
+or arrayName[(someIdentifier)]= 
+
+
+Loops
+

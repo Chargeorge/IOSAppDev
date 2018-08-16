@@ -1,0 +1,26 @@
+. JS Objects
+
+OBjects are collections of data.  
+
+The thing we need are {}
+
+var x = {}
+
+x.fruit = "papaya";
+x.count = "100"
+x.callback = function (){
+	alert ("I have " + this.count + " of " + this.fruit);	
+};
+
+why new!
+what is this?
+
+what are functions? 
+
+What is JSON?  
+
+
+http://json.parser.online.fr/
+
+
+JSON array exmample

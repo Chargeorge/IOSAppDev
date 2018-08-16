@@ -1,0 +1,85 @@
+Lesson 4 Review excercises
+
+- var x = (1+2) > (3+4);
+What is the type of X?
+
+
+function hypotonus (width, height){
+	return Math.sqrt(width*width + height* height)
+}
+
+Where should we put the semi colon?
+
+
+
+if x== 1 { 
+	alert("I'm a one!");
+}
+What is the If statement missing
+
+
+
+function newAlert(){
+	alert("test");
+} 
+newalert();
+
+Is this a valid call?
+
+
+
+var 24Karot = "solid Gold";
+Is this a valid Variable, if not why?
+
+
+var x = math.random
+
+if(x > .5){
+	alert(true);
+}else { 
+	alert(false);
+}else if(x == 5){
+	alert("I'm nothing");
+}
+What's wrong with this one?
+
+div{
+	backgroundColor: red;
+}
+what does this CSS affect?
+
+<head>
+  <linktype="text/css" href="theme.css">
+</head>
+
+what is the link tag missing
+
+
+var eagle;
+Is this declaration, assignment, or usage?
+
+Scope
+
+var x = 10;
+
+function fu(bx){
+	bx++;
+	return bx;
+}
+
+function bar(cx){
+	bx++;
+	var local=  10;
+	return cx;
+}
+
+function fubar(){
+	alert (local);
+}
+
+function clojure (){
+	alert(x);
+}
+
+
+
